@@ -10,5 +10,5 @@ test: Model.o
 Model.o: Model.cpp Model.h
 	g++ -c Model.cpp
 
-clean: 
-	rm *.o test main
+clean:
+	rm *.o test main *.txt
